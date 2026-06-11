@@ -1,12 +1,12 @@
 # Lightweight Non-Profit PHP Website
 
-Website source for Literacy Volunteers of Monongalia and Preston Counties.
-
 This is an extremely lightweight nonprofit website: one page with the essential information visitors need, including mission, services, impact, sponsors, donation links, contact details, and recent organization updates.
 
 The site deliberately avoids the bloat and maintenance overhead of WordPress. It has no Composer, Node, database, admin dashboard, plugin stack, or build-step dependency. The deployable site lives in `src/` and renders a single responsive PHP page from `src/index.php`.
 
 Recent events and announcements can be pulled from the organization's Facebook page through the Facebook Graph API, so staff can keep posting where they already work while the website stays simple.
+
+<img width="1064" height="875" alt="image" src="https://github.com/user-attachments/assets/65274579-8fda-4103-b4bc-069dbd96d677" />
 
 ## Project Structure
 
