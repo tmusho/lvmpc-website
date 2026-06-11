@@ -1,4 +1,4 @@
-# LVMPC Website
+# Lightweight Non-Profit PHP Website
 
 Website source for Literacy Volunteers of Monongalia and Preston Counties.
 
