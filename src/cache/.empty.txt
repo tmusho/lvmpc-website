@@ -1,1 +1,1 @@
-#This is just a placeholder file so git recognizes folder. Do need this file.
+#This is just a placeholder file so git recognizes folder. Do not need this file.
