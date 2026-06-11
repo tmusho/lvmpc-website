@@ -16,6 +16,7 @@ Recent events and announcements can be pulled from the organization's Facebook p
 │   ├── index.php          # Main website page, styles, and Facebook feed logic
 │   ├── .htaccess          # Apache HTTPS, security header, and CSP rules
 │   ├── images/            # Images used by the live website
+|   ├── cache/             # Empty folder for Facebook Feeds
 └── README.md
 ```
 
@@ -46,7 +47,7 @@ Upload the contents of `src/` to:
 /public_html/
 ```
 
-Upload the files inside `src/`, not the `src` folder itself. After upload, `/public_html/` should contain `index.php`, `.htaccess`, and the `images/` directory.
+Upload the files inside `src/`, not the `src` folder itself. After upload, `/public_html/` should contain `index.php`, `.htaccess`, `cache/`, and the `images/` directory.
 
 Make sure `.htaccess` is uploaded too. Some file managers hide dotfiles by default.
 
