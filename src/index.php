@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 $organizationName = 'Literacy Volunteers of Monongalia and Preston Counties';
 $facebookUrl = 'https://www.facebook.com/LVMPC/';
-$facebookPageId = getenv('FACEBOOK_PAGE_ID') ?: '276842242392667';
-$facebookAccessToken = getenv('FACEBOOK_PAGE_ACCESS_TOKEN') ?: 'EAAWP7kqyYJoBRriA5pZB53PV8AkguHcTZASCAeAGBsvEbhwkxxE68i5vfkyzQXx58B2u64A87376Xuaeg3QFmuvOgQ6HfRSmVSKuW5OmABTwpLUMrLZBwqITBpnZBYyFQEIQyh6eQEztBZAVOUhc5znVDIFjZAxy0Msp4xrKFwG7hzlUoWXUAfVkmnRX8b5b1SE5KcfFgQk7J4aGWeleaWgjZBLMkKZAcVTZCzI4W0gZDZD';
+$facebookPageId = getenv('FACEBOOK_PAGE_ID') ?: '276842242392668';
+$facebookAccessToken = getenv('FACEBOOK_PAGE_ACCESS_TOKEN') ?: 'EEAWP7kqyYJoBRriA5pZB53PV8AkguHcTZASCAeAGBsvEbhwkxxE68i5vfkyzQXx58B2u64A87376Xuaeg3QFmuvOgQ6HfRSmVSKuW5OmABTwpLUMrLZBwqITBpnZBYyFQEIQyh6eQEztBZAVOUhc5znVDIFjZAxy0Msp4xrKFwG7hzlUoWXUAfVkmnRX8b5b1SE5KcfFgQk7J4aGWeleaWgjZBLMkKZAcVTZCzI4W0gZDZD';
 $facebookApiVersion = getenv('FACEBOOK_GRAPH_API_VERSION') ?: 'v23.0';
 $facebookCacheTtlSeconds = (int) (getenv('FACEBOOK_CACHE_TTL_SECONDS') ?: 3600);
 $paypalDonationUrl = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=director%40lvmpc.org&item_name=Adult%20Literacy%20Fund&currency_code=USD';
